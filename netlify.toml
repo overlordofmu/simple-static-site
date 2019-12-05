@@ -4,3 +4,8 @@
 [context.production]
   command = "tree"
   publish = "."
+
+
+
+../exit-one.sh
+
