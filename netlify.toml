@@ -1,5 +1,5 @@
 [build]
-  ignore = "../exit-one.sh"
+  ignore = "exit-one.sh"
 
 [context.production]
   command = "tree"
