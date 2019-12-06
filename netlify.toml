@@ -1,2 +1,2 @@
 [build]
-  ignore = "exit-one.sh"
+  ignore = "exit-zero.sh"
