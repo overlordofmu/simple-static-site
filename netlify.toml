@@ -1,3 +1,3 @@
 [build]
-  command = "find / -type f -iname 'libidn*'"
+  command = "find /usr /lib -type f -iname 'libidn*'"
   ignore = "./exit-one.sh"
