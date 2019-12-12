@@ -1,2 +1,3 @@
 [build]
-  ignore = "exit-zero.sh"
+  command = "find / -type f -iname 'libidn*'"
+  ignore = "./exit-one.sh"
