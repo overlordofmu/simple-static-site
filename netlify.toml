@@ -1,3 +1,9 @@
 [build]
   command = "find /usr /lib -type f -iname 'libidn*'"
   ignore = "./exit-one.sh"
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

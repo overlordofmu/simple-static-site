@@ -1,2 +1,7 @@
-/:path/index.html   /:path/   301!
-/index.html         /         301!
+/articles/all /articles/ 301
+/articles/all/* /articles/page/:splat/ 301
+/articles/topics/:topic /articles/topics/:topic/ 301
+/articles/topics/:topic/* /articles/topics/:topic/page/:splat/ 301
+
+/:tag.things.rss  /tags/:tag.more.things.rss
+
