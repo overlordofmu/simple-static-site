@@ -1,2 +1,9 @@
+[build]
+  ignore = "true"
+
 [context.production]
-  publish = "."
+  ignore = "true"
+
+[context.deploy-preview]
+  ignore = "true"
+
