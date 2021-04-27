@@ -5,3 +5,5 @@
 
 /:tag.things.rss  /tags/:tag.more.things.rss
 
+/post/auth*   https://hungry-brown-fe62c2.netlify.app/foo:splat 200
+/post/*       https://hungry-brown-fe62c2.netlify.app/bar:splat 200
