@@ -8,4 +8,4 @@
 /post/auth*   https://enq692cotzg5h7s.m.pipedream.net/foo:splat 200
 /post/*       https://enq692cotzg5h7s.m.pipedream.net/bar:splat 200
 
-/blog/:path page=:page /blog/tag/:path/ 301
+/blog/:path page=:page /blog/tag/:path/? 301
